@@ -12,7 +12,8 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.googleapis.com/drive/v3/files/1-ADYcRh-48dfqY25X19QRpAt-rJtzvk7?alt=media&key=AIzaSyD8d2Sr6B9_EN-lXTptbXK5qM3q7skbgLg'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['Beaker', 'Florence flask',	'Petri dish', 'Burette', 'Funnels',	'Test tube', 'Coplin jar','Graduated cylinder',	'Volumetric flask', 'Desiccator','Graham condenser',
+          'Erlenmeyer flask',	'Liebig condenser']
 path = Path(__file__).parent
 
 app = Starlette()
